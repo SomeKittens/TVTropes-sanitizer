@@ -1,0 +1,10 @@
+{
+	"name": "TVTropes Sanitizer",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "Removes links on TVTropes pages",
+	"background": {"scripts": ["parse.js"]},
+	"permissions": [
+		"tabs", "http://tvtropes.org/*"
+	]
+}
